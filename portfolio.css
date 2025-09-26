@@ -63,3 +63,66 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+
+/* about */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.row p{
+    text-align: left;
+}
+
+.column{
+    display: flex; /*side by side */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form button{
+    background: #ff004f;
+    border: 0;
+    width: 150px;
+    border-radius: 4px;
+    height: 40px;
+    color: #fff;
+}
